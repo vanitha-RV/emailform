@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Forgot Password</h2>
+        <form onsubmit="return validateEmail(document.getElementById('email').value)">
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            <button type="submit">Submit</button>
+        </form>
+
+<p id="message"></p>
+
+</div>    
+    <script src="reset.js"></script>
+</body>
+</html>
